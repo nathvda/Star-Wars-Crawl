@@ -1,0 +1,16 @@
+body{
+    background-color:black;
+    font-family:verdana;
+    background-image:url(assets/stars.jpg);
+    background-size:cover;
+    text-align:center;
+}
+
+h1{
+    color:rgb(23, 116, 255);
+    font-size:80px;
+}
+
+article{
+    color: #EEDB00;
+}
