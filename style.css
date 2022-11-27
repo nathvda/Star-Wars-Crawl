@@ -51,7 +51,7 @@ h1 {
     position:absolute;
     animation:logo 16s forwards linear;
     animation-delay:9.5s;
-    top: -35vh;
+    top: auto;
     z-index:3;
     opacity:0;
 }
@@ -63,7 +63,7 @@ h2{
 section{
     color: #e6c612;
     z-index:1;
-    width:100vw;
+    width:90vw;
     left:50%;
     text-align:justify;
     font-size:25px;
@@ -76,7 +76,7 @@ section{
 }
 
 article{
-width: 100vw;
+width: 100%;
 margin:auto;
 transform: translateY(80%);
 }
@@ -120,6 +120,17 @@ position:absolute;
 top:0;
 right:0;
 z-index:99;
+}
+
+@media screen and (min-width:720px){
+   .logo{
+    top:auto;
+   }
+   
+    section{
+         width:80vw;
+    }
+
 }
 
 
